@@ -1,0 +1,36 @@
+$white-text-color1 : #e2e6ff;
+$white-text-color2 : #c4c7dc;
+$block-color : #aeb6ee;
+
+.big-text{
+  margin: 10%;
+  font-size: 80px;
+  font-family: "Comic Sans MS";
+}
+
+.white-text1{
+  color: $white-text-color1;
+}
+
+.white-text2{
+  color: $white-text-color2;
+}
+
+
+.text-container{
+  background-color: $block-color;
+  border-radius: 20px;
+}
+
+.buzzword{
+  color: #2e2d31;
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+.small-text{
+  color: #403f44;
+  font-size: 20px;
+  padding: 20px;
+
+}

@@ -1,1 +1,28 @@
-<p>chatroom works!</p>
+<div class="container  centered-container">
+  <div class="chatBoxBlock rounded">
+    <div class="container message-container rounded">
+
+      <div *ngFor="let m of messages">
+
+
+        <div *ngIf="m.getSender() === 'currentUser(placeholder)'">
+          <div class="sender">You</div>
+          <div class="message sender-self rounded">{{m.getContent()}}</div>
+        </div>
+        <div *ngIf="m.getSender() !== 'currentUser(placeholder)'">
+          <div class="sender">{{m.getSender()}}</div>
+          <div class="message sender-other rounded">{{m.getContent()}}</div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="input-group mb-3 bruh-moment rounded">
+      <input type="text" class="form-control text-input-chat rounded" placeholder="type here" name="chatInput" [(ngModel)]="chatInput"
+             aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary btn-blue" type="button" (click)="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
