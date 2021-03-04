@@ -12,7 +12,7 @@ Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
 ###   frontend
 ####  Vizuální
   - [ ] Login/Register stránky
-  - [ ] Chatroom stránka
+  - [X] Chatroom stránka
   - [ ] Home Stránka
 #### Funkční
   - [ ] Login
@@ -26,7 +26,7 @@ Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
   - [ ] Mazání Userů
   - [ ] Editace Userů
   - [ ] Posílání / Přijímání messagu
-## Milestones
+## Stages
 ### FirstStage
 #### backend
   - [ ] ukladaní useru
@@ -38,4 +38,4 @@ Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
   - [ ] registrace useru
   - [ ] login useru
 #### frontend
-  - [ ] funkcionalita messagu
+  - [X] funkcionalita messagu
