@@ -14,22 +14,23 @@ Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
   - [ ] Login/Register stránky
   - [X] Chatroom stránka
   - [ ] Home Stránka
+  - [ ] User stránka
 #### Funkční
   - [ ] Login
   - [ ] Register
   - [ ] Posílání Messagu
   - [ ] Přijímání Messagu
 ### backend
-  - [ ] Useři
-  - [ ] Ukládání Userů
-  - [ ] Vytváření Userů
+  - [X] Useři
+  - [X] Ukládání Userů
+  - [X] Vytváření Userů
   - [ ] Mazání Userů
   - [ ] Editace Userů
   - [ ] Posílání / Přijímání messagu
 ## Stages
 ### FirstStage
 #### backend
-  - [ ] ukladaní useru
+  - [X] ukladaní useru
     - Petr a Artiom
 #### frontend
   - [ ] registrace / login(vyzualni)
@@ -40,10 +41,19 @@ Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - [X] struktura
 ### Second stage
 #### backend
-  - [ ] registrace useru
+  - [X] registrace useru
     - Petr a Artiom
-  - [ ] login useru 
+  - [X] login useru 
     - Petr a Artiom
 #### frontend
   - [X] funkcionalita messagu
     - Honza a Martin
+### Third stage
+#### backend
+  - [ ] posilani messagu
+    - Petr a Artiom
+#### frontend
+  - [ ] User stránka
+    - Martin
+  - [ ] Dokoncit home stránku
+    - Honza
