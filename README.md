@@ -30,12 +30,20 @@ Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
 ### FirstStage
 #### backend
   - [ ] ukladaní useru
+    - Petr a Artiom
 #### frontend
   - [ ] registrace / login(vyzualni)
+    - Martin
   - [ ] home (vyzualni)
+    - Honza
+    - Existuje to ale nelíbý se mi to
+    - [X] struktura
 ### Second stage
 #### backend
   - [ ] registrace useru
-  - [ ] login useru
+    - Petr a Artiom
+  - [ ] login useru 
+    - Petr a Artiom
 #### frontend
   - [X] funkcionalita messagu
+    - Honza a Martin
