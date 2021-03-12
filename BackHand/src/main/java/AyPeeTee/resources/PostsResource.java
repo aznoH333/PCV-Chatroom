@@ -1,11 +1,9 @@
 package AyPeeTee.resources;
 
-
 import AyPeeTee.entities.PostEntity;
 import AyPeeTee.managers.PostsManager;
 
 import javax.inject.Inject;
-import javax.ws.rs.Path;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -25,7 +23,7 @@ public class PostsResource {
 
     @GET
     public Response get(@QueryParam("id") int id) {
-        return Response.ok(postsManager.get(id)).build();
+        return Response.ok(postsManager.get(id - 1)).build();
     }
 
     @POST

@@ -1,6 +1,5 @@
 package AyPeeTee.managers;
 
-
 import AyPeeTee.entities.PostEntity;
 
 import javax.enterprise.context.ApplicationScoped;
