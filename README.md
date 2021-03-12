@@ -55,5 +55,5 @@ Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
 #### frontend
   - [ ] User stránka
     - Martin
-  - [ ] Dokoncit home stránku
+  - [ ] Dodělat home stránku aby jsem s ní byl graficky spokojen
     - Honza
