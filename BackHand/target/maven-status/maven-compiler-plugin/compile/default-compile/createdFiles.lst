@@ -1,4 +1,7 @@
 AyPeeTee\entities\PostEntity.class
+AyPeeTee\entities\MessageEntity.class
 AyPeeTee\ApiConfing.class
 AyPeeTee\managers\PostsManager.class
+AyPeeTee\resources\MessageResource.class
+AyPeeTee\managers\MessageManager.class
 AyPeeTee\resources\PostsResource.class
