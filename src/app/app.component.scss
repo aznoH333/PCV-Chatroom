@@ -1,17 +1,20 @@
-$bg-light-gray : #6382b4;
-$white-text-color1 : #e2e6ff;
-$white-text-color2 : #c4c7dc;
+$primary : #95e395;
+$secondary : #639963;
+$white-text-color1 : #ffffff;
+$white-text-color2 : #dcf3d6;
+$block-color : #303030;
+$text-color : #3c433c;
 
 .bg-light-gray{
-  background-color: $bg-light-gray;
+  background-color: $primary;
 }
 
 .white-text1{
-  color: $white-text-color1;
+  color: $text-color;
 }
 
 .white-text2{
-  color: $white-text-color2;
+  color: $text-color;
 }
 
 .logo{
@@ -20,3 +23,20 @@ $white-text-color2 : #c4c7dc;
   padding: 0;
 }
 
+footer{
+  background-color: $primary;
+  margin-top: 4em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2em;
+
+}
+
+nav{
+  position: fixed;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  width: 100%;
+}

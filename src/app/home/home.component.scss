@@ -1,36 +1,48 @@
-$white-text-color1 : #e2e6ff;
-$white-text-color2 : #c4c7dc;
-$block-color : #aeb6ee;
+//help the wars broke
+$primary : #95e395;
+$secondary : #639963;
+$white-text-color1 : #ffffff;
+$white-text-color2 : #dcf3d6;
+$text-color : #3c433c;
 
-.big-text{
-  margin: 10%;
-  font-size: 80px;
-  font-family: "Comic Sans MS";
+
+
+h1{
+  color: $text-color;
+  font-size: 4rem;
 }
 
-.white-text1{
-  color: $white-text-color1;
+.centered-container{
+  display: flex;
+  align-items: center;
+  width: 100%;
+
 }
 
-.white-text2{
-  color: $white-text-color2;
+.two-panels{
+  display: flex;
+
 }
 
-
-.text-container{
-  background-color: $block-color;
-  border-radius: 20px;
+.two-panels > * {
+  flex-basis: 100%;
 }
 
-.buzzword{
-  color: #2e2d31;
-  font-size: 40px;
-  margin-top: 100px;
+.smol{
+  background-color: $primary;
+  margin: 3%;
+  color: $text-color;
+  padding: 3%;
+  box-shadow: 10px 10px $text-color;
 }
 
-.small-text{
-  color: #403f44;
-  font-size: 20px;
-  padding: 20px;
+.btn{
+  color: $text-color;
+  background-color: $primary;
+  border-width: 2px;
+  border-color: $secondary;
+}
 
+.centered-container{
+  padding-top: 6rem;
 }

@@ -1,20 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-$bg-gray : #313a43;
+
+$white-text-color1 : #ffffff;
+$white-text-color2 : #d7d7d7;
+$block-color : #5fac4a;
+
+
+
+$bg-gray : #ffffff;
 //have to change the color here for some reason
 body{
   background-color: $bg-gray;
 }
 
 //just copypasted from  app.scss
-$bg-light-gray : #6382b4;
-$white-text-color1 : #e2e6ff;
-$white-text-color2 : #c4c7dc;
-$block-color : #aeb6ee;
+
 
 .bg-light-gray{
-  background-color: $bg-light-gray;
+  background-color: $bg-gray;
 }
 
 .white-text1{
