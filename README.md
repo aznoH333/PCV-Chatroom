@@ -6,14 +6,14 @@ Bude možné vytvořit nebo se přihlásit do existujícího uživatele.
 Tento účet umožní uživatelům spát do chatroomy
 
 ## Pracující
-Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
+Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
 
 ## TO DO:
 ###   frontend
 ####  Vizuální
   - [ ] Login/Register stránky
   - [X] Chatroom stránka
-  - [ ] Home Stránka
+  - [X] Home Stránka
   - [ ] User stránka
 #### Funkční
   - [ ] Login
@@ -35,7 +35,7 @@ Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
 #### frontend
   - [ ] registrace / login(vyzualni)
     - Martin
-  - [ ] home (vyzualni)
+  - [X] home (vyzualni)
     - Honza
     - Existuje to ale nelíbý se mi to
     - [X] struktura
@@ -55,5 +55,17 @@ Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
 #### frontend
   - [ ] User stránka
     - Martin
-  - [ ] Dodělat home stránku aby jsem s ní byl graficky spokojen
+  - [X] Dodělat home stránku aby jsem s ní byl graficky spokojen
     - Honza
+### Fourth stage
+#### backend
+#### frontend
+  - [ ] Najít barevnou kombinaci která se pro stránku hodí a nebolí z ní oči
+    - Honza
+  - [ ] Animovaný tlačítka do navbaru
+    + jěště někde jinde když se najde tlačítko kterému by se to hodilo
+    - Honza
+
+
+## Když zbdyde čas:
+  - [ ] zpravit proměné v scsskách - Honza
