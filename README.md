@@ -60,6 +60,8 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
 ### Fourth stage
 #### backend
   - [ ] Dodělat fukcionalitu API
+    - [ ] Problém v mazání postu/message s ID
+    - [ ] Dodělat update
     - Artiom
 #### frontend
   - [ ] Najít barevnou kombinaci která se pro stránku hodí a nebolí z ní oči
