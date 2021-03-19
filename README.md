@@ -59,6 +59,7 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - Honza
 ### Fourth stage
 #### backend
+  - [ ] Dodělat fukcionalitu API
 #### frontend
   - [ ] Najít barevnou kombinaci která se pro stránku hodí a nebolí z ní oči
     - Honza
