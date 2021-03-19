@@ -50,7 +50,7 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - Honza a Martin
 ### Third stage
 #### backend
-  - [ ] posilani messagu (id message, author message, text message)
+  - [X] posilani messagu (id message, author message, text message)
     - Petr a Artiom
 #### frontend
   - [ ] User stránka
