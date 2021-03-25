@@ -28,7 +28,7 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
   - [ ] Editace Userů
   - [ ] Posílání / Přijímání messagu
 ## Stages
-### FirstStage
+### 1stStage
 #### backend
   - [X] ukladaní useru
     - Petr a Artiom
@@ -39,7 +39,7 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - Honza
     - Existuje to ale nelíbý se mi to
     - [X] struktura
-### Second stage
+### 2nd stage
 #### backend
   - [X] registrace useru
     - Petr a Artiom
@@ -48,7 +48,7 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
 #### frontend
   - [X] funkcionalita messagu
     - Honza a Martin
-### Third stage
+### 3rd stage
 #### backend
   - [X] posilani messagu (id message, author message, text message)
     - Petr a Artiom
@@ -57,19 +57,28 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - Martin
   - [X] Dodělat home stránku aby jsem s ní byl graficky spokojen
     - Honza
-### Fourth stage
+### 4th stage
 #### backend
   - [ ] Dodělat fukcionalitu API
     - [ ] Problém v mazání postu/message s ID
     - [ ] Dodělat update useru/message
     - Artiom
 #### frontend
-  - [ ] Najít barevnou kombinaci která se pro stránku hodí a nebolí z ní oči
+  - [X] Najít barevnou kombinaci která se pro stránku hodí a nebolí z ní oči
     - Honza
-  - [ ] Animovaný tlačítka do navbaru
+  - [X] Animovaný tlačítka do navbaru
     + jěště někde jinde když se najde tlačítko kterému by se to hodilo
     - Honza
+### 5th stage
+#### frontend
+  - [ ] Předělat messages do servicy + připravit implementaci api
+    - Honza
+  - [ ] Zpravit zobrazování messagu
+    - container message by se měl zarovnavat na strany podle toho kdo message poslas
+    - taky by se měl velikosti prispusobovat velikosti message
+    - Honza
 
 
-## Když zbdyde čas:
-  - [ ] zpravit proměné v scsskách - Honza
+## Když zbyde čas:
+  - [X] zpravit proměné v scsskách (Honza)
+  - [ ] Zorganizovat github aby developement a main branche meli důvod existovat (Kdokoliv ale pravděpodobně Honza)
