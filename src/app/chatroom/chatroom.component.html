@@ -3,8 +3,6 @@
     <div class="container message-container rounded">
 
       <div *ngFor="let m of messages">
-
-
         <div *ngIf="m.getSender() === 'currentUser(placeholder)'">
           <div class="sender">You</div>
           <div class="message sender-self rounded">{{m.getContent()}}</div>
@@ -29,7 +27,7 @@
       </textarea>
 
       <div class="input-group-append">
-        <button class="btn btn-outline-secondary btn-blue" type="button" (click)="sendMessage()">Send</button>
+        <button class="btn btn-outline-secondary btn-send" type="button" (click)="sendMessage()">Send</button>
       </div>
     </div>
   </div>

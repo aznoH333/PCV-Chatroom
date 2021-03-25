@@ -17,14 +17,6 @@ export class ChatroomComponent implements OnInit {
 
   messages : message[] = [
     new message("this is a test message", "different user"),
-    new message("xd", "different user"),
-    new message("xd", "different user"),
-    new message("xd", "different user"),
-    new message("xd", "different user"),
-    new message("xd", "different user"),
-    new message("xd", "different user"),
-    new message("xd", "different user"),
-
   ];
 
 

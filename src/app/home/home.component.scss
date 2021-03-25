@@ -1,16 +1,6 @@
-//help the wars broke
-$primary : #95e395;
-$secondary : #639963;
-$white-text-color1 : #ffffff;
-$white-text-color2 : #dcf3d6;
-$text-color : #3c433c;
+@import "styles";
 
 
-
-h1{
-  color: $text-color;
-  font-size: 4rem;
-}
 
 .centered-container{
   display: flex;
@@ -29,20 +19,46 @@ h1{
 }
 
 .smol{
-  background-color: $primary;
+  background-color: $color1;
+  border: solid 3px $color2;
   margin: 3%;
-  color: $text-color;
+  color: $color5;
   padding: 3%;
-  box-shadow: 10px 10px $text-color;
+  box-shadow: 10px 10px 30px $color6;
 }
 
 .btn{
-  color: $text-color;
-  background-color: $primary;
+  color: $color3;
+  background-color: $color1;
   border-width: 2px;
-  border-color: $secondary;
+  border-color: $color3;
+  animation: signInBtn2;
+  animation-duration: 0.5s;
 }
 
-.centered-container{
-  padding-top: 6rem;
+
+.btn:hover{
+  color: $color1;
+  background-color: $color3;
+  border-width: 2px;
+  border-color: $color4;
+  animation: signInBtn;
+  animation-duration: 0.5s;
 }
+
+
+.centered-container{
+  padding-top: 10rem;
+}
+
+h1{
+  color: $color5;
+  font-size: 7rem;
+  margin: 18rem;
+}
+h3,
+h2{
+  color: $color3;
+}
+
+
