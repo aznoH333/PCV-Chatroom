@@ -77,6 +77,10 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - container message by se měl zarovnavat na strany podle toho kdo message poslas
     - taky by se měl velikosti prispusobovat velikosti message
     - Honza
+#### backend
+  - [ ] Users static ID
+    + Každý user bude mít svůj vlastní id, který se bude používat jako author při posílaní message
+    - Artiom
 
 
 ## Když zbyde čas:
