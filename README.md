@@ -61,7 +61,7 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
 #### backend
   - [ ] Dodělat fukcionalitu API
     - [ ] Problém v mazání postu/message s ID
-    - [ ] Dodělat update useru/message
+    - [X] Dodělat update useru/message
     - Artiom
 #### frontend
   - [X] Najít barevnou kombinaci která se pro stránku hodí a nebolí z ní oči
