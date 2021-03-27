@@ -1,15 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~bootstrap/dist/css/bootstrap.min.css';
 
-//colors
-$color1 : #FBF9EF;
-$color2: #E8DBC5;
-$color3: #FF871F;
-$color4: #F28123;
-$color5: #6d675f;
-$color6: #14110F;
-
-
+@use "variables" as *;
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/utilities";
 
 //have to change the color here for some reason
 body{
