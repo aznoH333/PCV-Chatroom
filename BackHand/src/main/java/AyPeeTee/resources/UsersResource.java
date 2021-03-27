@@ -1,7 +1,7 @@
 package AyPeeTee.resources;
 
-import AyPeeTee.entities.PostEntity;
-import AyPeeTee.managers.PostsManager;
+import AyPeeTee.entities.UserEntity;
+import AyPeeTee.managers.UsersManager;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;
@@ -10,10 +10,10 @@ import javax.ws.rs.core.Response;
 
 @Path("users")
 @Produces(MediaType.APPLICATION_JSON)
-public class PostsResource {
+public class UsersResource {
 
     @Inject
-    private PostsManager postsManager;
+    private UsersManager postsManager;
 
     @GET
     @Path("getAll")
@@ -27,13 +27,13 @@ public class PostsResource {
     }
 
     @POST
-    public Response create(PostEntity post) {
+    public Response create(UserEntity post) {
         postsManager.create(post);
         return Response.ok(post).build();
     }
 
     @PUT
-    public Response update(@QueryParam("id") int id, PostEntity post) {
+    public Response update(@QueryParam("id") int id, UserEntity post) {
         postsManager.update(post, id);
         return Response.ok(post).build();
     }

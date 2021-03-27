@@ -1,29 +1,29 @@
 package AyPeeTee.managers;
 
-import AyPeeTee.entities.PostEntity;
+import AyPeeTee.entities.UserEntity;
 
 import javax.enterprise.context.ApplicationScoped;
 import java.util.ArrayList;
 
 @ApplicationScoped
-public class PostsManager {
+public class UsersManager {
 
-    private ArrayList<PostEntity> users = new ArrayList<>();
+    private ArrayList<UserEntity> users = new ArrayList<>();
 
-    public ArrayList<PostEntity> getAll() {
+    public ArrayList<UserEntity> getAll() {
         return users;
     }
 
-    public PostEntity get(int id) {
+    public UserEntity get(int id) {
         return users.get(id);
     }
 
-    public void create(PostEntity post) {
+    public void create(UserEntity post) {
         post.setId(users.size() + 1);
         users.add(post);
     }
 
-    public void update(PostEntity post, int id) {
+    public void update(UserEntity post, int id) {
         users.remove(id - 1);
         users.add(id - 1, post);
         post.setId(id);

@@ -1,7 +1,7 @@
 D:\GitHub\BackHand\PCV-Chatroom\BackHand\src\main\java\AyPeeTee\entities\MessageEntity.java
-D:\GitHub\BackHand\PCV-Chatroom\BackHand\src\main\java\AyPeeTee\managers\PostsManager.java
+D:\GitHub\BackHand\PCV-Chatroom\BackHand\src\main\java\AyPeeTee\managers\UsersManager.java
+D:\GitHub\BackHand\PCV-Chatroom\BackHand\src\main\java\AyPeeTee\entities\UserEntity.java
+D:\GitHub\BackHand\PCV-Chatroom\BackHand\src\main\java\AyPeeTee\resources\UsersResource.java
 D:\GitHub\BackHand\PCV-Chatroom\BackHand\src\main\java\AyPeeTee\managers\MessageManager.java
 D:\GitHub\BackHand\PCV-Chatroom\BackHand\src\main\java\AyPeeTee\ApiConfing.java
 D:\GitHub\BackHand\PCV-Chatroom\BackHand\src\main\java\AyPeeTee\resources\MessageResource.java
-D:\GitHub\BackHand\PCV-Chatroom\BackHand\src\main\java\AyPeeTee\resources\PostsResource.java
-D:\GitHub\BackHand\PCV-Chatroom\BackHand\src\main\java\AyPeeTee\entities\PostEntity.java

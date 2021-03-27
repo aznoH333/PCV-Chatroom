@@ -1,6 +1,6 @@
 package AyPeeTee.entities;
 
-public class PostEntity {
+public class UserEntity {
 
     private int id;
     private String user;
