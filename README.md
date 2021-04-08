@@ -59,9 +59,8 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - Honza
 ### 4th stage
 #### backend
-  - [ ] Dodělat fukcionalitu API
-    - [ ] Problém v mazání postu/message s ID
-    - Petr
+  - [X] Dodělat fukcionalitu API
+    - [X] Problém v mazání postu/message s ID
     - [X] Dodělat update useru/message
     - Artiom
 #### frontend
