@@ -87,6 +87,9 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - technicky funguje ale né úplně
     - [ ] předělat barvy at používaj bootsrap proměné
     - Honza
+#### backend
+  - [ ] Dodělat 5 stage (:kekw:)
+    - Artiom
 
 
 ## Když zbyde čas:
