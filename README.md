@@ -72,9 +72,9 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - Honza
 ### 5th stage
 #### frontend
-  - [ ] Předělat messages do servicy + připravit implementaci api
+  - [X] Předělat messages do servicy + připravit implementaci api
     - Honza
-  - [ ] Zpravit zobrazování messagu
+  - [X] Zpravit zobrazování messagu
     - container message by se měl zarovnavat na strany podle toho kdo message poslas
     - taky by se měl velikosti prispusobovat velikosti message
     - Honza
@@ -82,6 +82,12 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
   - [ ] Users static ID
     + Každý user bude mít svůj vlastní id, který se bude používat jako author při posílaní message
     - Artiom
+### 6th stage
+#### frontend
+  - [ ] Opravit bootstrap
+    - technicky funguje ale né úplně
+    - [ ] předělat barvy at používaj bootsrap proměné
+    - Honza
 
 
 ## Když zbyde čas:
