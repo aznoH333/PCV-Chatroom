@@ -92,7 +92,8 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
 #### backend
   - [ ] Users static ID
     + Každý user bude mít svůj vlastní id, který se bude používat jako author při posílaní message
-    - Artiom a Petr
+    - Artiom
+    + Každý user bude mít v sobě mít IDička messagu ktery poslal 
 
 
 ## Když zbyde čas:
