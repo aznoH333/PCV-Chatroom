@@ -85,9 +85,10 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - Artiom
 ### 6th stage
 #### frontend
-  - [ ] Opravit bootstrap
+  - [X] Opravit bootstrap
     - technicky funguje ale né úplně
     - [ ] předělat barvy at používaj bootsrap proměné
+    - jsem líný
     - Honza
 #### backend
   - [ ] Users static ID
@@ -95,6 +96,13 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - Artiom
     + Každý user bude mít v sobě mít IDička messagu ktery poslal 
     - Petr
+### 7th stage
+#### frontend
+  - [ ] User object
+    - Příprava na spojení s backendem
+    - Nějak pude fakovat přihlášení
+    - Do chatroomu jde psát je když je user přihlášen
+    - Honza
 
 
 ## Když zbyde čas:
