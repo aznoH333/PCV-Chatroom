@@ -19,12 +19,19 @@ public class MessageManager {
     }
 
     public void create(MessageEntity mess) {
-        mess.setId(message.size() + 1);
+        int lastId;
+        if (message.size() == 0) {
+            lastId = 0;
+        }
+        else {
+            lastId = message.get(message.size() - 1).getId();
+        }
+        mess.setId(lastId + 1);
         message.add(mess);
     }
 
     public void update(MessageEntity mess, int id) {
-        message.remove(id - 1);
+        message.remove(mess.getId() - 1);
         message.add(id - 1, mess);
         mess.setId(id);
     }
