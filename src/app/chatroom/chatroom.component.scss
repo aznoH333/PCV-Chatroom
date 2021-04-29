@@ -1,4 +1,4 @@
-@import "src/variables";
+@import "colors";
 
 .chatBoxBlock{
   background-color: $color2;
@@ -7,7 +7,7 @@
 
 .message-container{
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   flex-direction: column;
   background-color: $color1;
   width: 100%;
@@ -21,13 +21,11 @@
   margin-top: 6px;
 }
 
-
 .bruh-moment{
   display: flex;
   flex-direction: row;
   margin-top: 6px;
 }
-
 
 .btn-send{
   background-color: $color3;
@@ -50,7 +48,7 @@
   word-wrap: break-word;
   white-space: pre-wrap;
   margin-bottom: 1em;
-  max-width: 75ch;
+  display: flex;
 }
 
 
@@ -62,13 +60,29 @@
 .sender-self{
   background-color: $color3;
   color: $color1;
-
 }
 
 .centered-container{
   padding-top: 8rem;
 }
 
+.mes-left{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.mes-right{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.error-message{
+  margin: 7em;
+  color: $color6;
+  font-size: 2em;
+}
 
 /* Works on Firefox */
 * {

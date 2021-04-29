@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {Message} from '../../data/message';
+import {PostService} from '../services/post.service';
+import {UsersService} from '../services/users.service';
 
 @Component({
   selector: 'app-chatroom',
@@ -8,41 +11,29 @@ import { Component, OnInit } from '@angular/core';
 export class ChatroomComponent implements OnInit {
 
   // @ts-ignore
-  chatInput : string;
+  chatInput: string;
 
-  constructor() { }
+  renderMessages: Message[] = [];
+
+  constructor(private postService: PostService, private usersService: UsersService) { }
 
   ngOnInit(): void {
+    this.renderMessages = this.postService.updateMessages();
   }
 
-  messages : message[] = [
-    new message("this is a test message", "different user"),
-  ];
-
-
-
-  sendMessage() {
+  sendMessage(): void {
     if (this.chatInput.length > 0){
-      this.messages.push(new message(this.chatInput,"currentUser(placeholder)"));
+      this.postService.sendMessage(new Message(this.chatInput, this.usersService.getLoggedInUser().getName()));
       this.chatInput = '';
+      this.renderMessages = this.postService.updateMessages();
     }
   }
-}
-
-class message {
-
-
-  constructor(private content : string,private sender : string){}
-
-  getContent(){
-    return this.content;
+  bruh(): boolean{
+    return this.usersService.isUserLoggedIn();
   }
-
-  getSender(){
-    return this.sender;
-  }
-
-  editMessage(editedM : string){
-    this.content = editedM;
+  loggedInUserName(): string{
+    return this.usersService.getLoggedInUser().getName();
   }
 }
+
+

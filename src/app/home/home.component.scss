@@ -1,4 +1,4 @@
-@import "src/variables";
+@import 'colors';
 
 
 
@@ -24,7 +24,7 @@
   margin: 3%;
   color: $color5;
   padding: 3%;
-  // box-shadow: 10px 10px 30px $color6;
+  box-shadow: 10px 10px 30px $color6;
 }
 
 .btn{
@@ -32,14 +32,18 @@
   background-color: $color1;
   border-width: 2px;
   border-color: $color3;
-  transition: all 0.5s;
+  animation: signInBtn2;
+  animation-duration: 0.5s;
 }
 
 
 .btn:hover{
   color: $color1;
   background-color: $color3;
+  border-width: 2px;
   border-color: $color4;
+  animation: signInBtn;
+  animation-duration: 0.5s;
 }
 
 
