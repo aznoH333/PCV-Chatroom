@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import 'colors';
+@import 'src/colors';
 
 
 
@@ -48,29 +48,3 @@ body{
   flex-direction: row;
 }
 
-//  ==========
-//  ANIMATIONS
-//  ==========
-
-//sign up btn
-@keyframes signInBtn {
-  0%   {color: $color3;background-color: $color1;border-width: 2px;border-color: $color3;}
-  100%  {color: $color1;background-color: $color3;border-width: 2px;border-color: $color4;}
-}
-
-@keyframes signInBtn2 {
-  0%  {color: $color1;background-color: $color3;border-width: 2px;border-color: $color4;}
-  100%   {color: $color3;background-color: $color1;border-width: 2px;border-color: $color3;}
-}
-
-
-//nav buttons
-@keyframes navBtn {
-  0% {color: $color2;}
-  100% {color: $color1;border-bottom: solid 2px $color1;}
-}
-
-@keyframes navBtn2 {
-  0% {color: $color1;border-bottom: solid 2px $color1;}
-  100% {color: $color2;}
-}

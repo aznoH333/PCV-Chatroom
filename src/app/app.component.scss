@@ -1,4 +1,5 @@
-@import 'colors';
+@import 'src/colors';
+@import 'src/animations';
 
 //footer
 footer{
@@ -57,7 +58,7 @@ nav > div > a{
 }
 
 
-nav :is(a:hover){
+nav > div > a:hover{
   color: $color1;
   border-bottom: solid 2px $color1;
   animation: navBtn;
