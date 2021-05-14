@@ -98,12 +98,15 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - Petr
 ### 7th stage
 #### frontend
-  - [ ] User object
+  - [X] User object
     - Příprava na spojení s backendem
     - Nějak pude fakovat přihlášení
     - Do chatroomu jde psát je když je user přihlášen
     - Honza
-
+### 8th stage
+#### frontend
+- [X] Dodělat user login & register (ještě nazapojeny do backendu)
+    - Honza + Martin
 
 ## Když zbyde čas:
   - [X] zpravit proměné v scsskách (Honza)
