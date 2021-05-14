@@ -1,0 +1,20 @@
+
+@import '~bootstrap/scss/functions';
+//colors
+$color1 : #FBF9EF;
+$color2: #E8DBC5;
+$color3: #FF871F;
+$color4: #F28123;
+$color5: #6d675f;
+$color6: #14110F;
+
+$theme-colors: (
+  "light": $color1,
+  "primary": $color3,
+  "secondary": $color2,
+  "dark": $color6
+);
+
+
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";

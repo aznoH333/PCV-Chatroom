@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import 'src/colors';
+
+
+
+
+
+//have to change the color here for some reason
+body{
+  background: linear-gradient($color1, $color2);
+}
+
+//just copypasted from  app.scss
+
+
+.bg-light-gray{
+  background-color: $color1;
+}
+
+.white-text1{
+  color: $color5;
+}
+
+.white-text2{
+  color: $color6;
+}
+
+.logo{
+  font-size: 0.7cm;
+  margin: 0;
+  padding: 0;
+}
+
+.centered-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rounded{
+  border-radius: 3mm;
+  border-width: 0;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+

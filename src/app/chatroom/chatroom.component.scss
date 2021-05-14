@@ -1,0 +1,107 @@
+@import "src/colors";
+
+.chatBoxBlock{
+  background-color: $color2;
+  padding: 6px;
+}
+
+.message-container{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-color: $color1;
+  width: 100%;
+  height: 500px;
+  overflow : auto;
+}
+
+.functionality-container{
+  background-color: $color3;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.bruh-moment{
+  display: flex;
+  flex-direction: row;
+  margin-top: 6px;
+}
+
+.btn-send{
+  background-color: $color3;
+  color:$color1;
+  height: 100%;
+}
+
+.text-input-chat{
+  background-color: $color1;
+  resize: none;
+}
+
+.sender{
+  color: $color5;
+}
+
+.message{
+  padding: 10px;
+  border-radius: 2px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  margin-bottom: 1em;
+  display: flex;
+}
+
+
+.sender-other{
+  background-color: $color2;
+  color: $color6;
+}
+
+.sender-self{
+  background-color: $color3;
+  color: $color1;
+}
+
+.centered-container{
+  padding-top: 8rem;
+}
+
+.mes-left{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.mes-right{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.error-message{
+  margin: 7em;
+  color: $color6;
+  font-size: 2em;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $color2 none;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  padding: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  background: none;
+  margin: auto;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $color2;
+  border-radius: 3mm;
+}

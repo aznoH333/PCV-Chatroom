@@ -1,0 +1,31 @@
+@import "src/colors";
+.registerbox{
+  background-color: $color3;
+  margin: 10rem;
+  padding: 2em;
+  margin-top: 20rem;
+  display:flex;
+  flex-direction: column;
+  width: 40rem;
+
+}
+
+label{
+  color: $color1;
+
+}
+
+.button-register{
+  margin-top: 2rem;
+  width: 8rem;
+  height: 3rem;
+  background-color: $color1;
+  border-color: $color3;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
