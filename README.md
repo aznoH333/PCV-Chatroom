@@ -107,6 +107,9 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
 #### frontend
 - [ ] Dodělat user login & register (ještě nazapojeny do backendu)
     - Honza + Martin
+#### backend
+  - Spojeni vetvi v backend
+    - Petr
 
 ## Když zbyde čas:
   - [X] zpravit proměné v scsskách (Honza)
