@@ -105,7 +105,7 @@ Pracující : Jan Laššák, Petr Valdman, Martin Lacina, Artiom Topala
     - Honza
 ### 8th stage
 #### frontend
-- [ ] Dodělat user login & register (ještě nazapojeny do backendu)
+- [X] Dodělat user login & register (ještě nazapojeny do backendu)
     - Honza + Martin
 #### backend
   [ ] Spojeni vetvi v backend
